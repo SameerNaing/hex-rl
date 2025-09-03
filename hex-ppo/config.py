@@ -1,0 +1,22 @@
+import torch
+
+
+OBS_CH = 9
+BOARD_SIZE=5
+N_ACTIONS = BOARD_SIZE * BOARD_SIZE
+N_STEPS = 4000
+
+EPOCHS = 200
+LEARNING_RATE= 1e-4
+EVAL_EPOCH=5
+# PPO 
+CLIP_EPS = 0.2
+TRAIN_STEPS = 20
+
+
+# BUFFER
+BUF_GAMMA = 0.99
+GAE_LAMBDA= 0.95
+
+
+DEVICE="cuda" if torch.cuda.is_available() else "cpu"
