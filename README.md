@@ -33,8 +33,6 @@ mlflow server
 # Check out http://localhost:5000
 ```
 
-_[GIF coming soon: MLflow dashboard doing its thing]_
-
 ## 🛠️ Getting Started
 
 Everything's set up with `uv` because it's fast and I'm impatient:
