@@ -64,7 +64,7 @@ docker compose up -d
 - Self-play has this weird chicken-and-egg problem - if your model sucks at the start, it learns from... well, sucky play
 - AlphaZero needs serious patience to get past the "random moves everywhere" phase
 
-![Aplhazero_mcts](./imgs/alphazero_mcts60.png)
+<img src="./imgs/alphazero_mcts60.png" alt="Aplhazero_mcts" height="400">
 
 ### Round 2: PPO to the Rescue
 
@@ -78,7 +78,7 @@ docker compose up -d
 
 This made me realize that for simpler games, maybe we've been overthinking things with all that search complexity.
 
-![PPO_mcts](./imgs/ppo_mcts60.png)
+<img src="./imgs/ppo_mcts60.png" alt="PPO" height="400">
 
 ### Round 3: The Transfer Learning Experiment
 
@@ -92,7 +92,7 @@ This made me realize that for simpler games, maybe we've been overthinking thing
 
 **The bigger picture**: While the improvements on Hex 5x5 were cool, imagine what this could do for really complex games where AlphaZero's search power actually matters!
 
-![Alphazero_PPO_mcts](./imgs/ppo_alphazero_mcts60.png)
+<img src="./imgs/ppo_alphazero_mcts60.png" alt="Alphazero_PPO_mcts" height="400">
 
 ## 🏆 Tournament Time - Who's the Best?
 
